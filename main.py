@@ -33,8 +33,6 @@ from reportlab.pdfgen import canvas
 
 
 
-
-
 # Conectar ao banco de dados
 conn = sqlite3.connect('estoque.db')
 c = conn.cursor()
